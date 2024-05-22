@@ -30,7 +30,7 @@ class LoginPage
     {
         await expect(this.loginMessage).toHaveTextContaining(msg)
         console.log(this.loginMessage.getText())
-        browser.pause(5000)
+        browser.pause(10000)
     }
 }
 module.exports = new LoginPage()
